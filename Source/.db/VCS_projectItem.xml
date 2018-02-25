@@ -1,0 +1,119 @@
+<DATA>
+
+	<ROW>
+		<id>app08f946142f4012f1c17cbfaa8ad7dcb8</id>
+		<project_id>71</project_id>
+		<path>/src/APP/Main/</path>
+		<name>manualManager.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app14005acafff5bfd7038b3f0fb660620f</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>editorContainer.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app2c09b47d4b3ce526519c7392d8be3ac0</id>
+		<project_id>71</project_id>
+		<path>/</path>
+		<name>views.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app485897daac737bd611dc42c1d6094214</id>
+		<project_id>71</project_id>
+		<path>/</path>
+		<name>source.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app5bd378c799fe55f79d4a8415a3d64fed</id>
+		<project_id>71</project_id>
+		<path>/</path>
+		<name>index.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app71cf9d417f8241b4397bf4386197f043</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>getDocumentation.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app80ea3b672b9c11412748943249c55e74</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>deleteObjectDialog.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app8c1b92ee0aef7e2f4c9f9cd4e3430193</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>loginDialog.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app8fd1f7ad770d2c32ca591ffaf2fbebe2</id>
+		<project_id>71</project_id>
+		<path>/</path>
+		<name>settings.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appa9a8148fd1a6fdd0853cde76f3948661</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>MainView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appb5effa6080b4f67d178438352d805865</id>
+		<project_id>71</project_id>
+		<path>/views/</path>
+		<name>objectExplorer.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appbdbb71182cba56840e5bd784c485be6e</id>
+		<project_id>71</project_id>
+		<path>/src/APP/Main/</path>
+		<name>manualObject.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appfe429ca259619445ee4265b0681d022e</id>
+		<project_id>71</project_id>
+		<path>/views/info</path>
+		<name>aboutView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+</DATA>
