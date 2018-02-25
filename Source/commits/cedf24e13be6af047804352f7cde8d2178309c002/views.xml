@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><view name="getDocumentation"/><view name="editorContainer"/><folder name="info"><view name="aboutView"></view></folder></views>

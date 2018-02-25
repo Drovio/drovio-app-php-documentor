@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Main" namespace="\">
+  <class name="manualObject" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1433932715</datecreated>
+      <daterevised>1433932715</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Manual Object</title>
+      <description>Handles a manual full object including php code and manual xml.</description>
+      <deprecated/>
+    </info>
+    <constants>
+      <const type="string" name="ACCOUNT_MODE">
+        <description>The account mode for the library manager.</description>
+      </const>
+      <const type="string" name="TEAM_MODE">
+        <description>The team mode for the library manager.</description>
+      </const>
+    </constants>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="fileManager" name="fm">
+          <description>The object file manager.</description>
+        </prop>
+        <prop type="folderManager" name="fdm">
+          <description>The object folder manager.</description>
+        </prop>
+        <prop type="string" name="mode">
+          <description>The current instance mode.</description>
+        </prop>
+        <prop type="string" name="objectID">
+          <description>The object id.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Initialize manual object.</description>
+          <parameters>
+            <parameter name="$objectID" type="string" defaultvalue="">
+              <description>The object id.</description>
+            </parameter>
+            <parameter name="$mode" type="string" defaultvalue="">
+              <description>The object mode.
+See class constants for selection.
+Default value is account mode.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="update" returntype="boolean">
+          <description>Update the object's php and manual</description>
+          <parameters>
+            <parameter name="$phpInput" type="string" defaultvalue="">
+              <description>The php code.</description>
+            </parameter>
+            <parameter name="$manual" type="string" defaultvalue="">
+              <description>The manual xml.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getPhpInput" returntype="string">
+          <description>Get the object's php code.</description>
+          <parameters/>
+          <returndescription>The generated object's php code.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getManual" returntype="string">
+          <description>Get the object's manual generated xml code.</description>
+          <parameters/>
+          <returndescription>The manual xml.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="remove" returntype="boolean">
+          <description>Remove the object's files from the app.</description>
+          <parameters/>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="getObjectFolder" returntype="string">
+          <description>Get the object's folder name based on the object id.</description>
+          <parameters/>
+          <returndescription>The object's folder name.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

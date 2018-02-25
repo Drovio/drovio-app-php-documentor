@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Main" namespace="\">
+  <class name="manualManager" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1433931725</datecreated>
+      <daterevised>1433931725</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Manual Object Library Manager</title>
+      <description>Manages all objects in the library index.</description>
+      <deprecated/>
+    </info>
+    <constants>
+      <const type="string" name="ACCOUNT_MODE">
+        <description>The account mode for the library manager.</description>
+      </const>
+      <const type="string" name="TEAM_MODE">
+        <description>The team mode for the library manager.</description>
+      </const>
+    </constants>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="DOMParser" name="parser">
+          <description>The index xml parser manager.</description>
+        </prop>
+        <prop type="string" name="mode">
+          <description>The current instance mode.</description>
+        </prop>
+        <prop type="string" name="objectID">
+          <description>The object id.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Initialize the library object manager.</description>
+          <parameters>
+            <parameter name="$mode" type="string" defaultvalue="">
+              <description>The library mode.
+See class constants for selection.
+Default value is account mode.</description>
+            </parameter>
+            <parameter name="$objectID" type="string" defaultvalue="">
+              <description>The object id to manage in the library.
+Leave empty to create new objects or read all objects.
+It is empty by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="create" returntype="boolean">
+          <description>Create a new object in the library index.</description>
+          <parameters>
+            <parameter name="$name" type="string" defaultvalue="">
+              <description>The object name.</description>
+            </parameter>
+            <parameter name="$objectID" type="string" defaultvalue="">
+              <description>The object unique id.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure or if an object with the same id exists.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getName" returntype="string">
+          <description>Get the current object's name.</description>
+          <parameters/>
+          <returndescription>The object name.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="update" returntype="boolean">
+          <description>Update the current object's name.</description>
+          <parameters>
+            <parameter name="$name" type="string" defaultvalue="">
+              <description>The new object's name.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="remove" returntype="boolean">
+          <description>Remove the current object from the library index.</description>
+          <parameters/>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getObjectList" returntype="array">
+          <description>Get all library objects by id and name.</description>
+          <parameters/>
+          <returndescription>An array of all library objects.
+[id] =&amp;gt; [name].</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="loadIndex" returntype="void">
+          <description>Load library index or create if doesn't exist.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>
